@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:fillViewport="true"
+    android:background="@drawable/fon"
+    tools:context=".matrosov.BioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/biophoto" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/ds_moster"
+            android:textAlignment="center"
+            android:text="Алексаандр Матвеевич Матросов — Герой Советского Союза ,красноармеец,стрелок-автоматчик 2-го отдельного стрелкового батальона 91-й отдельной Сибирской добровольческой бригады имени И. В. Сталина 6-го Сталинского Сибирского добровольческого стрелкового корпуса оперативной группы генерала Герасимова Калининского фронта, член ВЛКСМ. Погиб в 19 лет, согласно официальной версии закрыв своей грудью амбразуру немецкого дзота"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

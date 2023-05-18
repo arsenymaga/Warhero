@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:fillViewport="true"
+    tools:context=".matrosov.FeatActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/featbar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ds_moster"
+            android:text="При спуске переправочных средств на воду некоторые плоты и лодки были повреждены разрывами мин противника. Разбитым оказался и плот Барышева. Находчивый воин заменил плот тут же найденной лодкой и двинулся к противоположному берегу.
+Противник, приняв ложную переправу за настоящую, открыл огонь из всех видов оружия. Когда до берега оставалось около двадцати метров, Барышев покинул лодку и выпрыгнул в воду. Держа автомат в одной руке, он добрался до берега и занял оборону. Боевое задание было успешно выполнено."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

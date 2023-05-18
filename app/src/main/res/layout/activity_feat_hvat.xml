@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".matrosov.FeatActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/plot" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 июня 1944 года при форсировании реки Западная Двина в районе деревни Узречье (Бешенковичский район) сделал плот и за сутки переправил 60 бойцов с боевой техникой и боеприпасами, обратными рейсами вывез 7 раненых. Погиб на переправе 25 июня 1944 года."
+            android:textAlignment="center"
+            android:fontFamily="@font/ds_moster"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

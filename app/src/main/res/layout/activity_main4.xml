@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon"
+    android:padding="4dp"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/Photo"
+            android:layout_width="411dp"
+            android:layout_height="355dp"
+            app:srcCompat="@drawable/hvatkov" />
+
+        <TextView
+            android:id="@+id/textNameHvat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ds_moster"
+            android:textAlignment="center"
+            android:text="Хватков Михаил Петрович"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textYearsHvat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ds_moster"
+            android:text="1925—1944"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonBioHvat"
+            android:layout_width="170dp"
+            android:alpha="0.1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/ds_moster"
+            android:onClick="biographyHvat"
+            android:text="Биография" />
+
+        <Button
+            android:id="@+id/buttonFeatHvat"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ds_moster"
+            android:alpha="0.1"
+            android:onClick="featHvat"
+            android:text="Подвиг" />
+
+        <Button
+            android:id="@+id/buttonAwardsHvat"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ds_moster"
+            android:alpha="0.1"
+            android:onClick="awardsHvat"
+            android:text="Награды" />
+    </LinearLayout>
+
+
+
+    </ScrollView>

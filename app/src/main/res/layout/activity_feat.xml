@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".matrosov.FeatActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/feat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ds_moster"
+            android:text="28 февраля 1943 года 2-ой батальон получил приказ атаковать опорный пункт. Как только солдаты пришли в лес, они попали под огонь противника — три пулемёта перекрывали подступы к деревне. На подавление огневых точек были высланы штурмовые группы. Один пулемёт подавили; второй уничтожила другая группа, но третий пулемёт продолжал простреливать всю лощину перед деревней. Тогда в сторону пулемёта пополз Александр Матросов и рывком бросился к ДЗОТу и своим телом закрыл амбразуру."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

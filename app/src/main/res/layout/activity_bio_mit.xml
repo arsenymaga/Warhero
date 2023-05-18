@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".matrosov.BioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="387dp"
+            android:layout_height="329dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/images" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ds_moster"
+            android:text="Владимир Митрягин родился 8 февраля 1915 года в Симбирске (ныне — Ульяновск). После окончания семи классов школы и школы фабрично-заводского ученичества работал в Москве сначала на заводе, затем в метрополитене. В 1937—1939 годах служил в Рабоче-крестьянской Красной Армии. В июне 1941 года Митрягин повторно был призван в армию. С июля того же года — на фронтах Великой Отечественной войны. В 1943 году окончил Чкаловское танковое училище."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
